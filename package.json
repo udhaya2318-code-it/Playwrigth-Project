@@ -1,0 +1,29 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --headed ",
+    "debub": "npx playwright test --debug",
+    "QA": "npx playwright test",
+    "report": "npx playwright show-report",
+    "trace": "npx playwright show-trace"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.0"
+  },
+  "dependencies": {
+    "allure": "^3.6.2",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.7.1",
+    "dotenv": "^17.4.2",
+    "loader": "^2.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
