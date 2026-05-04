@@ -37,9 +37,9 @@ export default defineConfig({
     headless : false,
     screenshot : 'on',
     video : 'on' ,
-    channel : 'msedge',
+   // channel : 'msedge',
     viewport : {width : 720 , height : 480} ,
-    baseURL :'https://www.saucedemo.com/'
+   // baseURL :'https://www.saucedemo.com/'
 
  
   },
